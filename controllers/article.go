@@ -18,7 +18,7 @@ type ArticleController struct {
 	beego.Controller
 }
 
-
+//新添加注释
 //展示文章列表页
 func(this*ArticleController)ShowArticleList(){
 	//session判断
